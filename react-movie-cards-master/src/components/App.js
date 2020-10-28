@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Header from './Header';
+import MovieForm from './Movie/MovieForm';
 import Movies from './Movie/Movies';
 
 export default class App extends Component {
