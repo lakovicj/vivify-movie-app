@@ -28,7 +28,7 @@ const MovieCard = ({ movie, deleteMovie, updateRating }) => {
               onMouseLeave={(e) => setIsShown(false)}
             >{movie.rating}</div>
             
-            {isShown ? movie.ratingCounter ? alert(movie.ratingCounter, " people rated") : alert("1 people rated") : null}
+            {isShown ? movie.ratingCounter ? alert(`${movie.ratingCounter} people rated`) : alert("1 people rated") : null}
             
           </div>
         </div>
